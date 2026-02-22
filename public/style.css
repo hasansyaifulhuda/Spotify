@@ -189,3 +189,22 @@ body {
     color: #444; font-size: 11px; font-weight: 700; letter-spacing: 2px;
     margin-top: 10px;
 }
+.input-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    flex: 1;
+    font-size: 15px;
+
+    min-width: 0;        /* WAJIB */
+}
+
+.input-box {
+    overflow: hidden;
+}
+
+.input-box input {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
